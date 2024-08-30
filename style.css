@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav1 {
+background-color: rgb(31, 31, 34);
+    display: flex;
+ justify-content: end;
+ 
+ align-items: center;
+}
+
+
+.nav1 .btn1b {
+    flex-direction: row;
+    height: 20px;
+    border-radius: 50px;
+    margin-right: 100px;
+    border: none;
+    padding: 10;
+
+}
+.nav1 .btn1a{
+    margin: 10px;
+    border-radius: 20px;
+    border: none;
+    padding: 4px;
+}
+.nav1 img{
+  width: 20px;
+  height: 20px;
+  margin-right: 14px;
+}
+.nav2{
+    margin: auto;
+    padding: 0;
+    background-color: rgb(77, 85, 85);
+    height: 40px;
+    padding: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav2 a{
+    display: inline-block;
+    align-items: center;
+    color: white;
+    
+    
+}
+#stName{
+    display: inline-block;
+    width: 600px;
+    height: 30px;
+    border-radius: 6px;
+    border: none;
+}
+.nav2 p{
+    display: inline-block;
+    margin-top: 0;
+   justify-content: space-between;
+   /* padding: 20px; */
+   color: white;
+  align-items: center;
+  /* align-items: center; */
+  
+}
+.nav2 .btn2{
+    width: 60px;
+    height: 30px;
+    background-color: rgb(23, 129, 129);
+    display: inline-block;
+   justify-content: space-between;
+   color: white;
+   margin: 10px;
+   border: none;
+}
